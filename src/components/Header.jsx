@@ -15,7 +15,6 @@ const Header = () => {
     localStorage.removeItem("token");
   };
 
-  console.log(auth.rol);
   return (
     <header className="header">
       <div className="header__contenedor-logo">
