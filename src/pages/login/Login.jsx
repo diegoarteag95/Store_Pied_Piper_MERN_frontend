@@ -104,9 +104,12 @@ const Login = () => {
           value="Iniciar Sesión"
           className="bg-emerald-700 -5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-emerald-800 trasition-colors"
         />
-        <h3>---cuentas de pruebas---</h3>
-        <p>admin@piedpiper.com pass:administrador</p>
-        <p>cliente@piedpiper.com pass:cliente</p>
+        <div className="text-center">
+          <br />
+          <h3>---cuentas de pruebas---</h3>
+          <p>admin@piedpiper.com pass:administrador</p>
+          <p>cliente@piedpiper.com pass:cliente</p>
+        </div>
       </form>
       <nav className="ld:flex lg:justify-between">
         <Link
